@@ -9,7 +9,7 @@ print(nx.degree_centrality(G))
 DC = nx.degree_centrality(G)
 for i in DC.keys():
     print('The node {} measurement center value {:.4f}'.format(i, DC[i]))
-    print(nx.eigenvector_centrality(G))#特征向量的中心性
+    print(nx.eigenvector_centrality(G))#меры центральности в собственных векторах
 
 #2
 import networkx as nx
@@ -22,6 +22,7 @@ print(nx.degree_centrality(G))
 DC = nx.degree_centrality(G)
 for i in DC.keys():
     print('The node {} measurement center value {:.4f}'.format(i, DC[i]))
-    print(nx.eigenvector_centrality(G))#特征向量的中心性
+    print(nx.eigenvector_centrality(G))#меры центральности в собственных векторах
+
 
 
